@@ -6,6 +6,8 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/hive-watch/",
+   // 👈 REQUIRED for GitHub Pages
   server: {
     host: "::",
     port: 8080,
