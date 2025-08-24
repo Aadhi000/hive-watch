@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/hive-watch/sw.js', { scope: '/hive-watch/' })})}
